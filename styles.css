@@ -1,0 +1,45 @@
+.input-timer {
+    margin-right: auto;
+    margin-left: auto;
+    color: #185a9d;
+    border-radius: 25%;
+    border:solid;
+  border-color:black;
+    
+   
+    text-align: center;
+}
+
+.button-timer{
+    background:none;
+    border:none;
+    font-size: 2em;
+  width:15%;
+  margin-right: 5px;
+  padding-left: 50px;
+ 
+ 
+}
+.button-timer:hover{
+    text-shadow: 10px 10px 0px rgba(0,0,0,0.2);
+    transition: .5s;
+  color:white;
+  transform:rotate(10deg);
+}
+
+#timer-container{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 30%;
+    border:solid 5px;
+    border-radius: 25px;
+    
+}
+
+.darkmode{
+  font-size:6em;
+}
